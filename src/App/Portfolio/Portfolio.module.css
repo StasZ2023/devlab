@@ -1,0 +1,108 @@
+.port{
+    width: 100%;
+    
+    position: absolute;
+    top:70px;
+    left:0;
+    z-index: 50;
+    background-color: #010517;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    padding: 20px;
+    padding-top:100px
+}
+.item{
+    width: 24%;
+    background: radial-gradient(circle at top, #0b122d8a 0%, #070e26a4 50%);
+    box-shadow: 0px 0px 1px 0px #727272 , 0px 10px 15px 0px #000000;
+    border-radius: 15px;
+}
+.text{
+    padding:20px;
+}
+.text h3{
+    padding-bottom:10px;
+}
+
+
+.len{
+    width: 100%;
+    height: 250px;
+    background-image: url('../../img/fonjob.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    outline: 0;
+}
+.len img{
+    width: 70%;
+}
+.blockImg{
+    width:100%;
+    position: absolute;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #010517;
+}
+.blockImg p{
+    background: radial-gradient(circle at top, #ff008080 10%, #ff0000d2 80%);
+    box-shadow: 0px 0px 1px 0px #727272 , 0px 10px 15px 0px #000000;
+    position: fixed;
+    z-index: 50;
+    padding:5px;
+    border-radius: 10px;
+    margin-top:10px;
+}
+.blockImg img{
+    width: 100%;
+}
+.demo{
+    width:100%;
+    height: 100vh;
+    position: fixed;
+    color:rgba(95, 95, 95, 0.089);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.11);
+    font-size: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.demo span{
+    display: block;
+    /* transform: rotate(50deg); */
+    font-weight: 900;
+}
+@media screen and (max-width:430px) {
+    .port{
+        top:0;
+        padding-top:70px;
+        padding-bottom: 70px;
+    }
+    .len{
+        width: 99%;
+        height: 100px;
+        overflow: hidden;
+    }.len img{
+        width:100%;
+        height: 100px;
+    }
+    .item{
+    width: 45%;
+}
+
+.text{
+    padding:10px;
+    font-size: 16px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}

@@ -1,0 +1,33 @@
+.container {
+      background: radial-gradient(circle at top, #01051791 0%, #010517b0 50%);
+      overflow: auto;
+  height: 100vh;
+       margin: 0 auto; 
+       padding: 20px 160px ;
+      margin-top: 70px;
+    }
+    canvas{
+      background: radial-gradient(circle at top, #010517c2 0%, #010517ea 50%);
+      /* opacity: 0.9; */
+      z-index: -1;
+  pointer-events: none;
+    }
+
+    .footer{
+      text-align: center;
+      color: #979292;
+      font-size: 16px;
+      /* padding:20px 0; */
+    }
+
+    @media screen and (max-width:430px) {
+
+      .container{
+        margin-top:0;
+        padding:90px 10px ;
+      }
+      .footer{
+      font-size: 12px;
+    }
+
+    }

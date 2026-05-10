@@ -1,0 +1,86 @@
+ .section {
+  margin-top:30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #141a35;
+}
+
+    .h2 {
+      margin-bottom:20px;
+      display: flex;
+      align-items: center;
+      gap:8px;
+    }
+    .h2 img{
+      width:32px;
+      height:32px;
+    }
+    .cards {
+      display:flex; 
+      gap:5px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+    .card {
+      width:24%;
+      height:240px;
+      background: radial-gradient(circle at top, #0b122d8a 0%, #070e26a4 50%);
+      border-radius:12px;
+      box-shadow: 0px 0px 1px 0px #727272 , 0px 10px 15px 0px #000000;
+      transform: scale(0.9);
+      text-align: center;
+      padding:20px;
+    }
+    .card img{
+      width:80px;
+      height:80px;
+      padding-bottom: 10px;
+    }
+    .kom{
+        filter:  drop-shadow(0 0 12px #3682ec);
+    }
+    .korzina{
+      filter: drop-shadow(0 0 12px #844ad4);
+    }
+    .statya{
+      filter:  drop-shadow(0 0 12px #f6731b);
+    }
+    .gear{
+      filter:  drop-shadow(0 0 12px #49b266);
+    }
+    .card p {
+      padding-bottom: 10px;
+    }
+    .card span{
+      color:#979292;
+    }
+   @media screen and (max-width:430px){
+    .h2 {
+      font-size: 22px;
+      
+    }
+    .h2 img{
+      width:25px;
+      height:25px;
+    }
+    .card {
+      padding:10px 5px;
+      width: 50%;
+    }
+    .card img{
+      width:50px;
+      height:50px;
+      padding-bottom: 0;
+    }
+    .card p {
+      padding-bottom: 5px;
+      font-size: 16px;
+    }
+    .card span{
+      font-size: 14px;
+    }
+    .cards {
+      flex-wrap: wrap;
+      gap:0px
+    }
+   }

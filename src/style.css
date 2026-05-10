@@ -1,0 +1,14 @@
+ * {margin:0; padding:0; box-sizing:border-box;
+    font-weight: bold;
+    user-select: none;
+  transition: all 0.3s;}
+
+  body {
+      font-family: 'Inter', sans-serif;
+      background-image: url('../src/img/fon.png');
+      background-repeat: repeat;
+      background-size:cover;
+      background-attachment: fixed;
+      color: #fff;
+      font-size: 20px;
+    }
